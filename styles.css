@@ -1,0 +1,167 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #F0ECEE;
+    margin: 20px;
+}
+
+header{
+    margin: 0 0;
+}
+
+p{
+    color: #88898B;
+    font-size: 1.3em;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 300;
+    color: #88898B;
+    font-size: 1.15em;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: black;
+    font-weight: 600;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+strong{
+    color: #FF4850;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+button{
+    display: flex;
+    border: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.15em;
+    background-color: #FF4850;
+    border-radius: 5px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+a.white{
+    color: white;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #CCC;
+}
+
+.home{
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 200%;
+    justify-self: flex-start;
+    margin: 0px auto 20px 0px;
+    padding: 0 0 20 0;
+
+}
+
+a.home{
+    color: black;
+    margin-left: 0px;
+}
+
+.do-you-think{
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#textcenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px){
+body{
+    background-image: url("bulldog.jpg");
+    background-color: #F0ECEE;
+    margin: 30px 60px;
+}
+
+.nav-list{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    margin: 0 0;
+    padding: 0 0;
+    padding-inline-start: 0px;
+    width: max-content;
+
+}
+
+li{
+    display: flex;
+    margin: 0px 15px;
+    padding: 0 0;
+}
+
+button{
+    width: auto;
+}
+
+button.white.contact{
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: auto;
+    flex: 1 0 120px;
+} 
+
+a.find{
+    padding: 0px 37px;
+    box-sizing: border-box;
+    flex-basis: 200px;
+}
+
+p{
+    margin: 35px 0px;
+}
+
+.to-the-right{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.do-you-think{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 55%;
+    display: block;
+}
+
+}
